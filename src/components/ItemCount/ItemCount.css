@@ -1,0 +1,17 @@
+.miBtn {
+    border: 0;
+    background-color: var(--clr-white);
+    color: var(--clr-main-light);
+    padding: 0.4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-white);
+    width: auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}

@@ -1,0 +1,46 @@
+
+.contenedorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--clr-main);
+    color: var(--clr-main-light);
+    border-radius: 15px;
+    margin: 3rem auto;
+    max-width: 800px;
+}
+
+.contenedorItem h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenedorItem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenedorItem p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.contenedorItem img {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+.miBtn {
+    text-decoration: none;
+    border: 0;
+    background-color: var(--clr-white);
+    color: var(--clr-main-light);
+    padding: 0.4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-white);
+    width: auto;
+}

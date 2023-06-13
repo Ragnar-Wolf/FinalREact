@@ -1,0 +1,38 @@
+:root {
+    --clr-main: #951818;
+    --clr-main-light: #fafafa;
+    --clr-white: #212529;
+    --clr-grey: #e2e2e2;
+    --clr-red: #951818;
+  }
+
+
+.cardProducto {
+    background-color: var(--clr-main);
+    color: var(--clr-main-light);
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.imgProducto {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.btnProducto {
+    border: 0;
+    background-color: var(--clr-white);
+    color: var(--clr-main-light);
+    padding: 0.4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-white);
+    width: 100%;
+}
